@@ -2,10 +2,10 @@ image: Ubuntu2204
 stack: node 21
 branches:
   only:
-    -master
+    - master
 cache: node_modules
 install:
   - npm install
-build: on
+build: off
 test_script:
   - npm run lint && npm test
