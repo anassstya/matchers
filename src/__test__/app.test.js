@@ -15,5 +15,5 @@ test('should sort objects', () => {
     { name: 'мечник', health: 10 },
   ];
 
-  expect(result).toEqual(answer);  // Используем toEqual для сравнения значений объектов
+  expect(result).toEqual(answer); 
 });
